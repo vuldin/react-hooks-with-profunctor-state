@@ -1,6 +1,4 @@
 import React, { Fragment } from 'react'
-import ReactDOM from 'react-dom'
-
 import { gradient } from './utils'
 
 export default function TempBar({ state, setState }) {

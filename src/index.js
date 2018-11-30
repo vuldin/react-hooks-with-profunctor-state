@@ -16,7 +16,12 @@ function App() {
     fahrenheit => ({ fahrenheit })
   ).promap(fToC, cToF)
 
-  return <TempBar {...celsiusProf} />
+  return (
+    <Fragment>
+      <TempBar {...celsiusProf} />
+      <TempBar {...celsiusProf} />
+    </Fragment>
+  )
 }
 
 const rootElement = document.getElementById('root')
